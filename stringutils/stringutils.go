@@ -8,3 +8,8 @@ func Reverse(s string) string {
 	}
 	return string(runes)
 }
+
+// IsEmpty returns true if the string is empty.
+func IsEmpty(s string) bool {
+	return len(s) == 0
+}
